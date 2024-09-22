@@ -7,6 +7,7 @@ module.exports = merge(common, {
     devServer: {
         static: './dist',
         open: true,
-        hot: true
+        hot: true,
+        allowedHosts: "all"
     }
 })
